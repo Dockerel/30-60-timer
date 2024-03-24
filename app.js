@@ -38,7 +38,7 @@ const handleTestTimer = () => {
 };
 
 const handlePrepareMemoirzeTimer = () => {
-  h1.innerText = "암기 준비 시간";
+  h1.innerText = "준비 시간";
   tempTime = prepareTime;
   timer.innerText = tempTime;
   intervalId = setInterval(() => {
@@ -52,7 +52,7 @@ const handlePrepareMemoirzeTimer = () => {
 };
 
 const handlePrepareTestTimer = () => {
-  h1.innerText = "시험 준비 시간";
+  h1.innerText = "준비 시간";
   tempTime = prepareTime;
   timer.innerText = tempTime;
   intervalId = setInterval(() => {
