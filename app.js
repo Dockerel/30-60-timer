@@ -73,7 +73,7 @@ const handleClick = () => {
   } else {
     on = 0;
     btn.innerText = "START";
-    h1.innerText = "30-60 타이머";
+    h1.innerText = "30-60\n타이머";
     timer.innerText = "0";
     clearInterval(intervalId);
   }
